@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="@pevidex/rename-ios-executable-cordova-plugin" version="0.0.1">
+
+  <name>RenameIosExecutable</name>
+  <description>Rename iOS Executable</description>
+  <author>OutSystems Inc</author>
+
+  <platform name="ios">
+    <hook type="before_build" src="src/rename-ios-executable.js" />
+  </platform>
+</plugin>

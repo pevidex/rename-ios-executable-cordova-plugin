@@ -1,0 +1,28 @@
+{
+  "name": "rename-ios-executable-cordova-plugin",
+  "version": "0.0.1",
+  "description": "Rename iOS executable",
+  "main": "src/rename-ios-executable.js",
+  "cordova": {
+    "id": "rename-ios-executable-cordova-plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pevidex/rename-ios-executable-cordova-plugin.git"
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "pevidex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pevidex/rename-ios-executable-cordova-plugin/issues"
+  },
+  "homepage": "https://github.com/pevidex/rename-ios-executable-cordova-plugin#readme",
+  "dependencies": {
+    "xcode": "^3.0.1"
+  }
+}

@@ -45,7 +45,7 @@ module.exports = async (context) => {
   buildConfigurations.forEach((buildConfiguration) => {
     pbxXCBuildConfigurationSection[buildConfiguration.value].buildSettings[
       BUILD_SETTING_NAME
-    ] = executableName;
+    ] = `'${executableName}'`;
   });
 
   fs.writeFileSync(proj.filepath, proj.writeSync(), "utf8", function (err) {

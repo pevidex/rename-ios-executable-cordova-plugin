@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="@pevidex/rename-ios-executable-cordova-plugin" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="rename-ios-executable-cordova-plugin" version="0.0.1">
 
   <name>RenameIosExecutable</name>
   <description>Rename iOS Executable</description>
